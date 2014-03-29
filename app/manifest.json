@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Teamodoro",
+    "description": "Pomodoro",
+    "version": "1",
+    "app": {
+        "background": {
+            "scripts": ["src/chrome-launch.js"]
+        }
+    },
+    "permissions":[
+        "http://fonts.googleapis.com/*",
+        "notifications"
+    ],
+    "icons": {
+        "16": "imgs/td64.png", "128": "imgs/td128.png"
+    },
+
+
+    "offline_enabled": true
+
+}

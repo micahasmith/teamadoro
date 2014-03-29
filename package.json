@@ -1,0 +1,23 @@
+{
+  "name": "teamodoro",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "mori": "~0.2.5",
+    "react-tools": "~0.9.0",
+    "gulp-util": "~2.2.14"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "through2": "~0.4.1",
+    "gulp-replace": "~0.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}

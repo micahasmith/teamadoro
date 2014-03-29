@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Lily Script One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lily Script One"), local("LilyScriptOne-Regular"), url(uPWsLVW8uiXqIBnE8ZwGPK3fkYX5z1QtDUdIWoaaD_k.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Pontano Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pontano Sans"), local("PontanoSans-Regular"), url(gTHiwyxi6S7iiHpqAoiE3HhCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+
+.max-width {
+  max-width: 320px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center; }
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  width: 15em;
+  height: 15em;
+  margin: 2em 0 0 2em;
+  box-sizing: border-box; }
+
+.red {
+  background-color: #E74C3C; }
+
+.blue {
+  background-color: #52B3D9; }
+
+.purple {
+  background-color: #913D88; }
+
+.header .header__title {
+  padding: 0;
+  font-family: 'Lily Script One', cursive;
+  text-align: center;
+  font-size: 7em;
+  font-weight: lighter;
+  color: #fff;
+  margin: .4em 0 0 -.1em; }
+
+.start-button {
+  background-color: #1E8BC3;
+  text-align: center; }
+  .start-button button {
+    background-color: #1E8BC3;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    font-weight: lighter; }
+  .start-button button:hover {
+    background-color: #2574A9; }
+  .start-button .time-left {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 4em;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 1.25em; }
+
+.pomodoro {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 3em;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 1.25em; }
+
+.pomtrans-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in; }
+
+.pomtrans-enter.pomtrans-enter-active {
+  opacity: 1; }
+
+.body {
+  text-align: center; }
+
+@media screen and (min-width: 650px) {
+  .max-width {
+    max-width: 650px; } }
+@media screen and (min-width: 768px) {
+  .max-width {
+    max-width: 768px; } }
+@media screen and (min-width: 1028px) {
+  .max-width {
+    max-width: 1028px; } }
