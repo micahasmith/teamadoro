@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Teamodoro",
-    "description": "Pomodoro",
+    "description": "A super-simple pomodoro app",
     "version": "1",
     "app": {
         "background": {

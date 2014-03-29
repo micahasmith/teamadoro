@@ -1,6 +1,6 @@
 var APP = {};
-APP.POMODORO_TIME = 3;
-//APP.POMODORO_TIME = 1500;
+//APP.POMODORO_TIME = 3;
+APP.POMODORO_TIME = 1500;
 
 // current timer/countdown
 APP.timerBus = new Bacon.Bus();
